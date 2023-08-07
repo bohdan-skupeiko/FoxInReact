@@ -1,0 +1,70 @@
+.work {
+  /*position: relative;*/
+}
+
+.work__content {
+  background-image: url("../../img/work-bg.jpg");
+  text-align: center;
+  position: relative;
+  margin-top: -113px;
+}
+
+.work__content-all {
+  padding-top: 74px;
+}
+
+.work__content-title {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #fff;
+  padding-left: 31px;
+  margin-bottom: 31px;
+}
+
+.work__btn {
+  background-color: var(--color2);
+  padding: 16px 24px;
+  max-width: 138px;
+  display: inline-block;
+  line-height: 15px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-bottom: 23px;
+  transition: all 0.2s linear;
+}
+
+.work__btn:hover {
+  color: #FE390C;
+  background-color: #fff;
+}
+
+.work__download-icon {
+  margin-top: -3px;
+}
+
+.work__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 79px;
+  gap: 8px;
+}
+
+.work__download-btn {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  color: #A9A9AA;
+  transition: all 0.2s ease-in;
+}
+
+.work__download-btn:hover {
+  color: var(--color2);
+}

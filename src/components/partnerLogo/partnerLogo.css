@@ -1,0 +1,57 @@
+.partner {
+  background: #F7F7F7;
+  padding: 60px 0;
+  width: 100%;
+}
+
+.partner__mobile-page {
+  display: none;
+}
+
+.partner__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  margin-bottom: 43px;
+}
+
+.partner__title-number {
+  font-size: 80px;
+  line-height: 120px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color2);
+
+}
+
+.partner__title-title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #111214;
+}
+
+.partner__block-mobile {
+  display: none;
+}
+
+.partner__block-up {
+  display: flex;
+  justify-content: center;
+  gap: 79px;
+  margin-bottom: 56px;
+}
+
+.partner__block-down {
+  display: flex;
+  justify-content: center;
+  gap: 79px;
+}
+
+.work__about-page {
+  margin-top: 79px;
+}

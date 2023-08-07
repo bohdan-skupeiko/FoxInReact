@@ -1,0 +1,154 @@
+/*Line*/
+.information__content {
+  display: flex;
+  position: relative;
+  padding-bottom: 85px;
+  border-left: 1px solid #F2F3F4;
+}
+
+.information__content::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 25.5%;
+  bottom: 0;
+  top: 0;
+  border-right: 1px solid #F2F3F4;
+  border-left: 1px solid #F2F3F4;
+}
+
+.information__content::after {
+  content: '';
+  position: absolute;
+  right: 23.5%;
+  left: 51%;
+  bottom: 0;
+  top: 0;
+  border-right: 1px solid #F2F3F4;
+  border-left: 1px solid #F2F3F4
+}
+
+.content__first {
+  position: relative;
+  z-index: 3;
+  display: flex;
+}
+
+/*line*/
+.content__left-item {
+  padding-top: 90px;
+  padding-right: 61px;
+}
+
+.content__left-description {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+.content__left-img {
+  margin-bottom: 30px;
+  margin-left: -1px;
+}
+
+.content__left-text {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: -0.04em;
+  line-height: 20px;
+  color: #111214;
+}
+
+.content__left-number {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 0.02em;
+  color: var(--color2);
+}
+
+.content__right-item {
+  padding-top: 122px;
+  padding-right: 64px;
+}
+
+.content__right-description {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.content__right-number {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 0.02em;
+  color: var(--color2);
+}
+
+.content__right-text {
+  font-weight: 600;
+  font-size: 14px;
+  align-items: center;
+  letter-spacing: -0.04em;
+  line-height: 20px;
+  color: #111214;
+}
+
+.content__second {
+  position: relative;
+  z-index: 3;
+  padding-top: 124px;
+}
+
+.content__second-title {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: -7px;
+}
+
+.content__second-number {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: 0.02em;
+  line-height: 120px;
+  color: var(--color2);
+}
+
+.content__second-h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #111214;
+}
+
+.content__second-description {
+  margin-left: 93px;
+  max-width: 429px;
+}
+
+.text__first {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: var(--color1);
+  line-height: 32px;
+  margin-bottom: 14px;
+}
+
+.text__second {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: var(--color1)
+}

@@ -1,0 +1,94 @@
+.intro {
+  position: relative;
+}
+
+.intro__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__left {
+  padding: 308px 0 225px 0;
+}
+
+.left__text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  /* identical to box height, or (calc(30 / 24 * 100%)) */
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.left__text span {
+  color: var(--color2);
+}
+
+.left__name {
+  font-size: 130px;
+  line-height: 118%;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.left__name::after {
+  content: "";
+  display: block;
+  width: 2px;
+  position: absolute;
+  background: #fff;
+  height: 148px;
+  top: -3px;
+  right: -2px;
+}
+
+.left__specialty {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  margin-bottom: 26px;
+}
+
+.intro__button {
+  display: inline-block;
+  padding: 16px 24px;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 4px;
+  background: #FE390C;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  transition: all 0.2s linear;
+}
+
+.intro__button:hover {
+  background-color: #fff;
+  color: var(--color2);
+}
+
+.intro__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro__icons:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.intro__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

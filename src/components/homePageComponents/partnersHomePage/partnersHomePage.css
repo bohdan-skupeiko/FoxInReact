@@ -1,0 +1,21 @@
+.partners {
+  background-color: #F7F7F7;
+  width: 100%;
+  position: relative;
+}
+
+.partners__content {
+  padding-top: 87px;
+  padding-bottom: 194px;
+}
+
+.partners__content-items {
+  display: flex;
+  justify-content: space-between;
+  max-width: 931px;
+  margin: 0 auto;
+}
+
+.phone__version {
+  display: none;
+}

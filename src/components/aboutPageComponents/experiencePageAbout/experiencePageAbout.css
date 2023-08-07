@@ -1,0 +1,129 @@
+.experience__main {
+  border-right: 1px solid #F2F3F4;
+  border-left: 1px solid #F2F3F4;
+  padding-top: 117px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.experience__main::after {
+  position: absolute;
+  content: '';
+  border-right: 1px solid #F2F3F4;
+  border-left: 1px solid #F2F3F4;
+  left: 51%;
+  top: 0;
+  bottom: 0;
+  right: 23.4%;
+}
+
+.experience__main::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 25.5%;
+  bottom: 0;
+  top: 0;
+  border-left: 1px solid #F2F3F4;
+}
+
+.experience__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  margin-bottom: 48px;
+  position: relative;
+  z-index: 1;
+}
+
+.experience__number {
+  font-size: 80px;
+  line-height: 120px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color2);
+}
+
+.experience__title {
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #111214;
+}
+
+.experience__down {
+  display: flex;
+}
+
+.experience__items {
+  display: flex;
+}
+
+.experience__item:first-child {
+  padding-right: 78px;
+}
+
+.experience__item:nth-child(2) {
+  padding-top: 47px;
+  padding-right: 72px;
+}
+
+.experience__item:nth-child(3) {
+  padding-top: 88px;
+  padding-right: 72px;
+}
+
+.experience__item:nth-child(4) {
+  padding-top: 139px;
+}
+
+.experience__img {
+  margin-bottom: 24px;
+}
+
+.experience__item-title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.experience__item-number {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--color2);
+}
+
+.experience__item-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: #111214;
+}
+
+.experience__item-date {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  color: var(--color2);
+}
+
+.experience__item-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: var(--color1);
+  max-width: 212px;
+}

@@ -1,5 +1,6 @@
 import filePdf from "../../file/portfolio.pdf";
 import workDownload from "../../img/work_download.svg";
+import "./work.css";
 
 const Work = () => {
 	return (

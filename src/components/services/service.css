@@ -1,0 +1,119 @@
+.service {
+  position: relative;
+}
+
+.service__main {
+  border-left: 1px solid #F2F3F4;
+  position: relative;
+  padding-top: 79px;
+}
+
+.service__main::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 25.5%;
+  bottom: 0;
+  top: 0;
+  border-right: 1px solid #F2F3F4;
+  border-left: 1px solid #F2F3F4;
+}
+
+.service__main::after {
+  content: '';
+  position: absolute;
+  right: 23.3%;
+  left: 51%;
+  bottom: 0;
+  top: 0;
+  border-right: 1px solid #F2F3F4;
+  border-left: 1px solid #F2F3F4;
+}
+
+.service__main-top {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 59px;
+  gap: 23px;
+
+}
+
+.service__main-number {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120px;
+  letter-spacing: .02em;
+  color: var(--color2);
+  margin-left: 1px;
+}
+
+.service__main-title {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  color: #111214;
+}
+
+.service__main-carts {
+  display: flex;
+  gap: 61px;
+  padding-bottom: 82px;
+}
+
+.service__carts-block {
+  position: relative;
+  z-index: 3;
+  max-width: 230px;
+  transition: background-color .2s ease;
+}
+
+.service__carts-block:hover .service__carts-item {
+  background-color: var(--color2);
+  cursor: pointer;
+}
+
+.service__carts-block:hover .service__carts-img path {
+  fill: #FFFFFF;
+}
+
+.service__carts-block:hover .service__carts-title,
+.service__carts-block:hover .service__carts-text {
+  color: #FFFFFF;
+}
+
+.service__carts-item {
+  background: #F7F7F7;
+  padding: 38px 30px 32px 19px;
+  transition: all .2s ease;
+}
+
+.service__carts-img {
+  margin-bottom: 21px;
+  transition: fill .2s ease;
+}
+
+.service__carts-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: #111214;
+  margin-bottom: 8px;
+  transition: color .2s ease;
+}
+
+.service__carts-text {
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: var(--color1);
+  font-weight: 500;
+  font-size: 14px;
+  transition: color .2s ease;
+}
