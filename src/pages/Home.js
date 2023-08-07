@@ -14,7 +14,9 @@ const Home = () => {
 			<PartnersHomePage/>
 			<Work/>
 			<Services mainNumber="02"/>
-			<SliderPortfolio titleNumber="02"/>
+			<section className="portfolio">
+				<SliderPortfolio titleNumber="03"/>
+			</section>
 			<ContactHomePage/>
 		</main>
 	);
