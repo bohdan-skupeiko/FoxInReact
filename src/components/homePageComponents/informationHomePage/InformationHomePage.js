@@ -9,7 +9,7 @@ const InformationHomePage = () => {
 				<div className="information__content content">
 					<div className="content__first">
 						<div className="content__left-item">
-							<img className="content__left-img" src={about1} alt="photo"/>
+							<img className="content__left-img" src={about1} alt="Heis"/>
 							<div className="content__left-description">
 								<h3 className="content__left-text"> Saticfied <br/>Customers
 								</h3>

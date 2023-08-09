@@ -90,3 +90,90 @@
   letter-spacing: -0.04em;
   color: #111214;
 }
+@media (max-width: 992px) {
+  .about {
+    padding-top: 0;
+  }
+
+  .about__main {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about__img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 380px;
+  }
+
+  .about__main-content {
+    padding: 0 16px;
+  }
+
+  .about__content-title {
+    margin-bottom: 20px;
+  }
+
+  .about__text {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__content-number {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .about__content-text {
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0;
+  }
+
+  .skills__top-group {
+    margin-bottom: 24px;
+  }
+
+  .about__text {
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    max-width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .about__img {
+    padding-top: 80px;
+  }
+
+  .about__content-title {
+    margin-bottom: 56px;
+  }
+
+  .about__subtitle {
+    position: relative;
+    margin-bottom: 32px;
+  }
+
+  .about__subtitle:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #F2F3F4;
+    top: -30%;
+    left: 0;
+  }
+
+  .about__text {
+    margin-bottom: 12px;
+  }
+
+  .about__text-first {
+    margin-bottom: 16px;
+  }
+
+  .about__date {
+    gap: 23px;
+  }
+}

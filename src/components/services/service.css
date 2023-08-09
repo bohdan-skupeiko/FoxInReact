@@ -5,7 +5,7 @@
 .service__main {
   border-left: 1px solid #F2F3F4;
   position: relative;
-  padding-top: 79px;
+  padding-top: 81px;
 }
 
 .service__main::before {
@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 59px;
+  margin-bottom: 56px;
   gap: 23px;
 
 }
@@ -95,7 +95,7 @@
 }
 
 .service__carts-img {
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   transition: fill .2s ease;
 }
 
@@ -116,4 +116,101 @@
   font-weight: 500;
   font-size: 14px;
   transition: color .2s ease;
+}
+@media (max-width: 992px) {
+  .service__main-carts {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .service__main:before {
+    border-left: none;
+  }
+
+  .service__main:after {
+    border-right: none;
+  }
+}
+@media (max-width: 767px) {
+  .service__main-carts {
+    gap: 24px;
+    justify-content: space-around;
+  }
+
+  .service__main {
+    padding-top: 48px;
+  }
+
+  .service__main-top {
+    padding-bottom: 12px;
+  }
+
+  .service__main-number {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .service__main-title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 516px) {
+  .service__main:after {
+    border-left: none;
+  }
+}
+@media (max-width: 424px) {
+  .service__main {
+    border-left: none;
+  }
+
+  .service__main::before {
+    border-right: none;
+  }
+}
+@media (max-width: 375px) {
+  .service__main {
+    padding-top: 60px;
+    border-left: none;
+  }
+
+  .service__main-top {
+    gap: 0;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  .service__main-number {
+    margin-right: 10px;
+  }
+
+  .service__main-carts {
+    justify-content: space-between;
+    gap: 28px;
+    padding-bottom: 76px;
+  }
+
+  .service__carts-block {
+    max-width: 311px;
+    margin: 0 auto;
+  }
+
+  .service__carts-item {
+    padding: 38px 10px 32px 19px;
+  }
+
+  .service__carts-img {
+    margin-bottom: 23px;
+  }
+
+  .service__main::before {
+    border-right: none;
+  }
+  .service__top-page {
+    padding-bottom: 159px;
+  }
+  .service__main-page {
+    padding: 91px 0 0 10px;
+  }
 }

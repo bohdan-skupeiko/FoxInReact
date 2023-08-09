@@ -14,7 +14,7 @@ const IntroHomePage = () => {
 						<div className="left__text"><span>Hello,</span> I’m</div>
 						<h1 className="left__name">robert fox</h1>
 						<div className="left__specialty">Professional Product Designer</div>
-						<a className="intro__button" href="">let’s talk</a>
+						<a className="intro__button" href="/#">let’s talk</a>
 					</div>
 					<div className="intro__right">
 						<a href="https://www.instagram.com/" className="intro__icons" target="_blank" rel="noreferrer"><img

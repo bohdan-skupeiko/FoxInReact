@@ -17,7 +17,7 @@ const SkillsPageAbout = () => {
 							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
 							enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
 						</p>
-						<a href="#" download className="skills__button">DOWNLOAD CV</a>
+						<a href="/#" download className="skills__button">DOWNLOAD CV</a>
 					</div>
 					<div className="skills__experience">
 						<div className="skills_experience-items">

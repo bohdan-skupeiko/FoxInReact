@@ -1,5 +1,6 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
-import {Navigation, Pagination, Scrollbar} from 'swiper/modules';
+import {Navigation, Pagination} from 'swiper/modules';
+
 import "./portfolioSlider.css";
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -12,27 +13,28 @@ import photoSlide3 from "../../img/slider-photo3.png"
 
 const SliderPortfolio = ({titleNumber}) => {
 	return (
-
 		<div className="portfolio__container _container">
 			<div className="portfolio__main">
 				<Swiper
-					modules={[Navigation, Pagination, Scrollbar]}
+					modules={[Navigation, Pagination]}
 					spaceBetween={24}
 					slidesPerView={3}
 					pagination={{
 						clickable: true,
+						el: '.custom__pagination-portfolio'
 					}}
 					centeredSlides={false}
 					breakpoints={{
 						320: {
 							slidesPerView: 1,
-							centeredSlides: true
 						},
-						1024: {
+						769: {
 							slidesPerView: 2,
+							spaceBetween: 20
 						},
-						1200: {
+						1201: {
 							slidesPerView: 3,
+							spaceBetween: 24
 						}
 					}}
 				>
@@ -48,8 +50,9 @@ const SliderPortfolio = ({titleNumber}) => {
 							<button className="portfolio__main-button">BRANDING</button>
 							<button className="portfolio__main-button">WEB DESIGN</button>
 						</nav>
-						<BtnSlider/>
+						<BtnSlider className="arrow__buttons-portfolio"/>
 					</div>
+					<div className="custom__pagination-portfolio"></div>
 					<SwiperSlide>
 						<div className="portfolio__carousel-item">
 							<img src={photoSlide1} alt="slide-1"/>

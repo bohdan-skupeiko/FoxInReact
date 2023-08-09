@@ -1,4 +1,4 @@
-import "./contactHomePage.js.css"
+import "./contactHomePage.css"
 import phoneIcon from "../../../img/contact-icon-phone.svg";
 import emailIcon from "../../../img/contact-icon-email.svg";
 import addressIcon from "../../../img/contact-icon-address.svg";

@@ -5,6 +5,7 @@ import InformationHomePage from "../components/homePageComponents/informationHom
 import PartnersHomePage from "../components/homePageComponents/partnersHomePage/PartnersHomePage";
 import ContactHomePage from "../components/homePageComponents/contactHomePage/ContactHomePage";
 import SliderPortfolio from "../components/sliderPortfolio/SliderPortfolio";
+import SliderTestimonial from "../components/sliderTestimonial/SliderTestimonial";
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<section className="portfolio">
 				<SliderPortfolio titleNumber="03"/>
 			</section>
+			<SliderTestimonial topContentNumber="04" totalSlides="03"/>
 			<ContactHomePage/>
 		</main>
 	);

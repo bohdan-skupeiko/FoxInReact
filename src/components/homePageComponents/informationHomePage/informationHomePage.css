@@ -71,7 +71,7 @@
 }
 
 .content__right-item {
-  padding-top: 122px;
+  padding-top: 126px;
   padding-right: 64px;
 }
 
@@ -79,7 +79,7 @@
   display: flex;
   gap: 10px;
   align-items: center;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 .content__right-number {
@@ -103,14 +103,14 @@
 .content__second {
   position: relative;
   z-index: 3;
-  padding-top: 124px;
+  padding-top: 127px;
 }
 
 .content__second-title {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-bottom: -7px;
+  margin-bottom: -10px;
 }
 
 .content__second-number {
@@ -151,4 +151,123 @@
   line-height: 32px;
   letter-spacing: -0.02em;
   color: var(--color1)
+}
+@media (max-width: 992px) {
+  .information__content {
+    flex-direction: column;
+  }
+
+  .content__first {
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .content__right-item {
+    padding-right: 0;
+  }
+
+  .content__second-description {
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .about__text {
+    max-width: 100%;
+  }
+
+  .about__date {
+    justify-content: center;
+  }
+
+  .information__content::before {
+    border-left: none;
+  }
+
+  .information__content::after {
+    border-right: none;
+  }
+}
+@media (max-width: 650px) {
+  .information__content {
+    padding-bottom: 48px;
+  }
+  .content__first {
+    flex-direction: column;
+    padding: 0;
+  }
+  .content__right-number {
+    line-height: 88px;
+  }
+
+  .content__left-item {
+    padding-right: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 43px;
+  }
+
+  .content__right-img {
+    margin-left: -1px;
+  }
+
+  .content__right-item {
+    padding-top: 44px;
+  }
+  .content__right-description {
+    margin-bottom: 33px;
+  }
+
+  .content__second {
+    padding-top: 66px;
+  }
+  .content__second-h2 {
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: -16px;
+  }
+  .text__first,
+  .text__second {
+    font-size: 12px;
+  }
+  .information__content:after {
+    left: 50%;
+  }
+  .content__second-description {
+    margin-left: 77px;
+  }
+  .information__content::after {
+    display: none;
+  }
+}
+@media (max-width: 424px) {
+  .content__second-title {
+    gap: 19px;
+    margin-bottom: -9px;
+  }
+
+  .text__first {
+    margin-bottom: 16px;
+  }
+
+  .content__second-number {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .content__right-item {
+    justify-content: start;
+  }
+
+  .text__first,
+  .text__second {
+    font-size: 12px;
+  }
+
+  .content__second-description {
+    margin-left: 76px;
+    display: inline-block;
+    margin-top: -7px;
+
+  }
 }

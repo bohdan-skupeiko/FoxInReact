@@ -6,7 +6,7 @@ const AboutMainPageAbout = () => {
 		<section className="about">
 			<div className="_container">
 				<div className="about__main">
-					<img src={photo} alt="photo" className="about__img"/>
+					<img src={photo} alt="AboutPhoto" className="about__img"/>
 					<div className="about__main-content">
 						<div className="about__content-title">
 							<div className="about__content-number">

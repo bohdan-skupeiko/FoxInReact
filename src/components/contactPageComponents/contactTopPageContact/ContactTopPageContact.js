@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import contactBg from "../../../img/contact/contact_bg.jpg";
+import "./contactTopPageContact.css";
 
 const ContactTopPageContact = () => {
 	return (

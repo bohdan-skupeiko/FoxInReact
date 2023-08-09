@@ -17,3 +17,15 @@
 .footer__content span {
   color: #ffffff;
 }
+@media (max-width: 767px) {
+  .footer {
+    padding: 30px 0 51px;
+  }
+
+  .footer__content {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin-top: -1px;
+  }
+}

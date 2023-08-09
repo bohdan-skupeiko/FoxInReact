@@ -5,6 +5,7 @@ import linkedinIcon from "../../../img/linkedin.svg";
 import boolIcon from "../../../img/bool-icon.svg";
 import instagramIcon from "../../../img/instagram-icon.svg";
 import facebookIcon from "../../../img/facebook-icon.svg";
+import './contactContactPage.css';
 
 const ContactContactPage = () => {
 	return (

@@ -1,3 +1,4 @@
+import "./questions.css";
 const Questions = ({questionsTitleNumber}) => {
 	return (
 		<section className="questions questions__page">

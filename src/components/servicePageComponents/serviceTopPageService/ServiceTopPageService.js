@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import serviceBg from "../../../img/service/service_bg.jpg";
+import "./serviceTopPageService.css";
 
 const ServiceTopPageService = () => {
 	return (

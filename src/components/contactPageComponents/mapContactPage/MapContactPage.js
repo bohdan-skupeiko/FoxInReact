@@ -1,3 +1,4 @@
+import './mapContactPage.css';
 const MapContactPage = () => {
 	return (
 		<section className="map">
@@ -8,7 +9,7 @@ const MapContactPage = () => {
 				</div>
 				<div className="map__body">
 					<div style={{"width": 100 + "%"}}>
-						<iframe width="100%"
+						<iframe title="frame" width="100%"
 										height="511"
 										frameBorder="0"
 										scrolling="no"

@@ -1,9 +1,9 @@
 import {useSwiper} from "swiper/react";
 
-export default function BtnSlider() {
+export default function BtnSlider({className}) {
 	const swiper = useSwiper();
 	return (
-		<div className="section__header-btn__portfolio">
+		<div className={className}>
 			<div className="section_header__arrows">
 				<div
 					className="arrow section__header-arrow section__header-arrow__prev arrow__perv"

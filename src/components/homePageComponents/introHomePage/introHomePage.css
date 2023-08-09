@@ -17,7 +17,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 125%;
-  /* identical to box height, or (calc(30 / 24 * 100%)) */
   letter-spacing: -0.04em;
   color: #fff;
   margin-bottom: 12px;
@@ -91,4 +90,73 @@
   height: 100%;
   top: 0;
   left: 0;
+}
+@media (max-width: 767px) {
+  .left__name {
+    font-size: 77px;
+  }
+
+  .left__name:after {
+    height: 104px;
+  }
+
+  .content__second-number {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .content__second-h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 424px) {
+  .intro__left {
+    max-width: 260px;
+    padding-top: 359px;
+    padding-bottom: 263px;
+  }
+
+  .left__name {
+    font-size: 58px;
+    line-height: 123%;
+    margin-bottom: 8px;
+  }
+
+  .intro__button {
+    text-transform: uppercase;
+  }
+
+  .left__name:after {
+    height: 73px;
+    top: -4px;
+    right: -7px;
+  }
+
+  .left__text {
+    font-size: 24px;
+  }
+
+  .left__specialty {
+    margin-bottom: 24px;
+  }
+
+  .intro__right {
+    margin-bottom: -116px;
+  }
+}
+@media (max-width: 320px) {
+  .left__name {
+    font-size: 47px;
+  }
+
+  .left__name:after {
+    height: 60px;
+    top: -5px;
+    right: 16px;
+  }
+
+  .left__specialty {
+    font-size: 16px;
+  }
 }

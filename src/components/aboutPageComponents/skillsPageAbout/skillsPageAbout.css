@@ -122,3 +122,67 @@
 .percent4 {
   width: 86%;
 }
+@media (max-width: 1200px) {
+  .skills__basic {
+    gap: 40px;
+  }
+
+  .skills__info {
+    max-width: 420px;
+  }
+}
+@media (max-width: 9920px) {
+  .skills {
+    padding: 50px 0;
+  }
+
+  .skills__basic {
+    flex-direction: column;
+  }
+
+  .skills__experience {
+    padding-top: 0;
+    max-width: 100%;
+  }
+
+  .skills__info {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .skills__line {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .skills__basic {
+    gap: 48px;
+  }
+
+  .skills__top-number {
+    font-size: 64px;
+    line-height: 96px;
+  }
+
+  .skills__top-title {
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0;
+  }
+
+  .skills__text {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .skills__top-group {
+    gap: 15px;
+  }
+
+  .skills__text {
+    max-width: 315px;
+    margin-bottom: 23px;
+  }
+}

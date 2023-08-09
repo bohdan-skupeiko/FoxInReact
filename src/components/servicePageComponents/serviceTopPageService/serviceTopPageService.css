@@ -1,0 +1,32 @@
+.service__main-page {
+  padding-left: 19px;
+
+}
+
+.top__page-content {
+  gap: 0;
+}
+
+.page__number-service {
+  margin-left: 22px;
+  margin-right: 36px;
+}
+
+/*=======================*/
+.partner__service-page {
+  padding-bottom: 245px;
+}
+
+.work__service-page {
+  position: relative;
+  margin-top: -14.6%;
+}
+@media (max-width: 767px) {
+  .work__service-page {
+    margin-top: -26%;
+  }
+
+  .service__partners-page {
+    margin-bottom: 79px;
+  }
+}

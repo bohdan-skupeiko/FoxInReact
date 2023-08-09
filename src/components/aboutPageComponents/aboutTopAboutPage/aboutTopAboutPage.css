@@ -38,3 +38,62 @@
   top: 0;
   left: 0;
 }
+@media (max-width: 1200px) {
+  .about {
+    padding: 20px 0 80px;
+  }
+
+  .about__img {
+    padding-top: 65px;
+    width: 100%;
+    max-width: 455px;
+
+  }
+
+  .about__main-content {
+    padding-top: 150px;
+  }
+
+  .about__content-title {
+    gap: 29px;
+  }
+
+  .about__content-number {
+    font-size: 72px;
+    line-height: 102px;
+  }
+
+  .about__content-text {
+    font-size: 32px;
+  }
+
+  .about__subtitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .about__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__top-title {
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: 0.02em;
+    margin-bottom: 1px;
+  }
+}
+@media (max-width: 375px) {
+  .about__top {
+    padding-top: 162px;
+    padding-bottom: 159px;
+  }
+
+  .about__main {
+    gap: 37px;
+  }
+}
+
+
